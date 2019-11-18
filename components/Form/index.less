@@ -1,0 +1,21 @@
+:global {
+  .error-tips {
+    color: #f5222d;
+    transition: color 0.3s cubic-bezier(0.215, 0.61, 0.355, 1);
+  }
+  .ant-descriptions-view {
+    overflow: visible !important;
+  }
+}
+
+.inputWrap {
+  position: relative;
+  :global {
+    .error-tips {
+      position: absolute;
+      top: 100%;
+      left: 0;
+      margin: -4px 0 0 0;
+    }
+  }
+}
